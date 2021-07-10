@@ -27,6 +27,7 @@ class LogIn extends Component {
             this.props.history.push('tasks');
         }
         else{
+            alert('Неправильный логин или пароль');
             this.props.updateEmail('');
             this.props.updatePassword('');
         }
