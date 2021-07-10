@@ -1,0 +1,43 @@
+.add-task-form{
+    align-self: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(53, 67, 73);
+    padding: 25px;
+    &__title{
+        text-align: center;
+    }
+    &__inputblock{
+        text-align: center;
+        margin: 25px;
+    }
+    &__input{
+        display: block;
+        width: 450px;
+        height: 50px;
+        padding: 15px;
+        font-size: 24px;
+    }
+    &__input-red{
+        background: rgba(238, 175, 175, 0.829);
+    }
+    &__textarea{
+        display: block;
+        width: 450px;
+        height: 50px;
+        padding: 15px;
+        font-size: 24px;
+        resize: vertical;
+    }
+    &__button{
+        font-size: 20px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        align-self: center;
+        color: rgb(53, 67, 73);
+        background: rgb(165, 191, 216);
+        border-radius: 15%;
+    }
+}
